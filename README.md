@@ -31,7 +31,7 @@ JDK 17, minSdk/targetSdk 31.
 adb -d install -r app\build\outputs\apk\debug\app-debug.apk
 ```
 
-The phone has the **debug** build, signed with this PC's debug key. There is no release keystore yet.
+The phone has the **release** build, signed by a key in `signing/` that is not in this repository. Releases are on the GitHub releases page.
 
 ## Code
 
